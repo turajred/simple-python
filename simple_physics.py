@@ -129,6 +129,7 @@ if problem_selection=="POWER":
     print("2.p=mgh/t")
     print("3.p=mas/t")
     print("4.p=w/t")
+    formula=input("Select formula number:")
     if formula=="1":
         F=float(input("Enter force value(Newton):"))
         s=float(input("Enter displacement value(metre):"))
